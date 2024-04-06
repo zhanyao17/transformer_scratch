@@ -14,3 +14,4 @@ Study the background of transformer design
 
 # Todo
 - Play around with tensor/matrix calculation (gpu vs cpu)
+- Study mutmul formula
