@@ -11,3 +11,6 @@ Study the background of transformer design
 <p align="center" width="100%">
     <img src="Multi-Head.png" width="700">
 </p>
+
+# Todo
+- Play around with tensor/matrix calculation (gpu vs cpu)
