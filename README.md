@@ -14,4 +14,5 @@ Study the background of transformer design
 
 # Todo
 - Play around with tensor/matrix calculation (gpu vs cpu)
-- Study matmul formula
+- Study matmut matrix calculation :white_check_mark:
+- Start working on image classification task (using ANN & DNN)
