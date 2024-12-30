@@ -3,8 +3,10 @@ from PIL import Image
 from base64 import b64encode
 import tkinter as tk
 from tkinter import filedialog
+import os
 
-client = InferenceClient(api_key="**your own api") # login
+api_key = os.getenv("HF_API_KEY")
+client = InferenceClient(api_key=api_key) # login
 
 # Get user input
 user_messages = input('Message Llama 3.2 Vi: ')
