@@ -4,7 +4,7 @@ from base64 import b64encode
 import tkinter as tk
 from tkinter import filedialog
 
-client = InferenceClient(api_key="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") # login
+client = InferenceClient(api_key="**your own api") # login
 
 # Get user input
 user_messages = input('Message Llama 3.2 Vi: ')
